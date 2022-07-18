@@ -8,7 +8,7 @@ I have a two named native queries in my orm.xml, one for retrieving the data, an
 
 ```
 <named-native-query name="Person.findPeople.count">
-    <query>select count(*) from
+    <query>select count(*)
         from person
     </query>
 </named-native-query>
